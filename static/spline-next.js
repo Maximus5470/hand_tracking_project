@@ -1,0 +1,1 @@
+export { default } from 'https://esm.sh/@splinetool/react-spline@latest?bundle';

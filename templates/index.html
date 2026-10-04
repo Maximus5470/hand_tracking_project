@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>5-DOF Robot Arm Mirror</title>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@18.3.1",
+          "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+          "three": "https://cdn.jsdelivr.net/npm/three@0.162.0/build/three.module.js",
+          "three/": "https://cdn.jsdelivr.net/npm/three@0.162.0/"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="{{ url_for('react_app_js') }}"></script>
+  </body>
+</html>
